@@ -1,0 +1,14 @@
+{
+    "name": "vendedoe/dor",
+    "description": "leccto de excel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendedoe\\Dor\\": "src/"
+        }
+    },
+    "require": {
+        "ext-gd": "*",
+        "phpoffice/phpspreadsheet": "1.19.0"
+    }
+}
